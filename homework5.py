@@ -2,22 +2,18 @@
 # 1. შექმენი ტრანსპორტის კლასი მინიმუმ 4 კლასის პარამეტრით
 #*****************************************************************************
 
-# class Transporti:
-#     def __init__(self, mode, capacity, speed, fuel_type):
-#         self.mode = mode
-#         self.capacity = capacity
-#         self.speed = speed
-#         self.fuel_type = fuel_type
-#
-#     def information(self):
-#         print(f"Mode of transport: {self.mode}")
-#         print(f"Capacity: {self.capacity}")
-#         print(f"Speed: {self.speed} km/h")
-#         print(f"Fuel_type: {self.fuel_type}")
-#
-# transport1 = Transporti("Car", 5, 180, "Gasoline")
-#
-# transport1.information()
+class Transporti:
+        mode = "Car"
+        capacity = 5
+        speed = 180
+        fuel_type = "Gasoline"
+
+transport1 = Transporti
+
+print(transport1.mode)
+print(transport1.capacity)
+print(transport1.speed)
+print(transport1.fuel_type)
 
 #*****************************************************************************
 # 2. დაამატე ერთი სტატიკური მეთოდი.
